@@ -6,13 +6,14 @@ If you answered "Yes" to the above questions, here is a tool you can use!
 
 
 As you probaby know, there are more than 200K Radio IDs on RadioID.net.
-To help you pick the contacts who've transmitted most recently, the RadioIDTrimmed tool takes the users.json file from RadioID.net and trims it based on the "Last Heard" contacts from the BrandMeister network for a specific set of Talkgroups.
+To select contacts who've transmitted most recently, the RadioIDTrimmed tool takes the users.json file from RadioID.net and trims it based on the "Last Heard" contacts from the BrandMeister network for a specific set of Talkgroups.
 
-Specific talkgroups picked by the RadioIDTrimmed tool are:
- 94, 95, 30271, 3100, 3106, 302, 31088, 92, 404, 93, 40430, 3141, 3142, 98003, 310, 311, 312, 3148, 3153, 91, 955.
 
 
 Today, the BrandMeister tool does not expose an API for "Last Heard" contacts, so RadioIDTrimmed tool is unable to input in your talkgroups of interest. I have sent an email to the BrandMeister API developer to expose the API, and am waiting ot hear back.
+
+Specific talkgroups picked by the RadioIDTrimmed tool are:
+ 94, 95, 30271, 3100, 3106, 302, 31088, 92, 404, 93, 40430, 3141, 3142, 98003, 310, 311, 312, 3148, 3153, 91, 955.
 
 Do you want other talkgroups added to the list?
 Send an email to srinival@gmail.com. A new json will be generated once a month and your talkgroups of interest will be added to the monthly update. 

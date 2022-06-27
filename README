@@ -1,14 +1,13 @@
-With love to the DMR HAM community
+#A DMR Ham Radio utility
 
-Do you have a radio that cannot store more than 200K contacts?
-Do you want to have contact information of the people who have transmitted on DMR most recently?
+# Python script to get contact names for recent transmits to upload to DMR Radio.
+
+Do you have a DMR radio that cannot store more than 200K contacts?
+Do you want to see contact information of the people who have transmitted on DMR most recently?
 If you answered "Yes" to the above questions, here is a tool you can use!
-
 
 As you probaby know, there are more than 200K Radio IDs on RadioID.net.
 To select contacts who've transmitted most recently, the RadioIDTrimmed tool takes the users.json file from RadioID.net and trims it based on the "Last Heard" contacts from the BrandMeister network for a specific set of Talkgroups.
-
-
 
 Today, the BrandMeister tool does not expose an API for "Last Heard" contacts, so RadioIDTrimmed tool is unable to input in your talkgroups of interest. I have sent an email to the BrandMeister API developer to expose the API, and am waiting ot hear back.
 
